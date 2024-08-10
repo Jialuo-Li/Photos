@@ -1,11 +1,11 @@
 from PIL import Image
 
-# 打开要压缩的图片
-for i in range(1, 57):
-    image = Image.open(f'./img/{i}.jpg')
+# 打开要翻转的图片
+path = './img/55.jpg'
+image = Image.open(path)
 
-    # 设置压缩质量（0-100），数值越低，压缩效果越明显
-    quality = 50
+# 将图像顺时针旋转90度
+rotated_image = image.rotate(-90, expand=True)
 
-    # 保存压缩后的图片，保留原分辨率
-    image.save(f'./imgs/{i}.jpg', 'JPEG', quality=quality)
+# 保存翻转后的图片
+rotated_image.save(path)
