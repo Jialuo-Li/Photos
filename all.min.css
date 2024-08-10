@@ -623,7 +623,11 @@ body,button {
 	margin:0
 }
 .page-2 img {
-	height:80%
+	width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    position: fixed; 
+    left: 0;
 }
 .page-3 {
 	background-color:#c1b287
