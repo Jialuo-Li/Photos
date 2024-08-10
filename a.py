@@ -1,15 +1,14 @@
 from PIL import Image
 
 # 打开要翻转的图片
-for i in range(1, 57):
-    path = f'./img/{i}.jpg'
-    image = Image.open(path)
+path = f'a.jpg'
+image = Image.open(path)
 
-    # 设置压缩质量（0-100），数值越低，压缩效果越明显
-    quality = 30
+# 设置压缩质量（0-100），数值越低，压缩效果越明显
+quality = 30
 
-    # 保存压缩后的图片，保留原分辨率
-    image.save(path, 'JPEG', quality=quality)
+# 保存压缩后的图片，保留原分辨率
+image.save(path, 'JPEG', quality=quality)
 # path = './img/55.jpg'
 # image = Image.open(path)
 
