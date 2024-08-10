@@ -191,10 +191,10 @@ body {
 	transition:all .3s cubic-bezier(.77,.10,.22,1)
 }
 .ft-page-thumb:hover {
-	background-color:rgba(207, 41, 41, 0.7)
+	background-color:rgba(255, 255, 255, 0.5)
 }
 .ft-page-thumb.actual {
-	background-color:rgba(228, 13, 13, 0.5);
+	background-color:rgba(255, 255, 255, 0.5);
 	border:1px solid #fff
 }
 img {
@@ -230,11 +230,14 @@ img {
 	font-style:normal
 }
 html {
-	font-size:100%;
-	line-height:1.5rem;
-	background-color:#aaa;
-	color:#6e2d52;
-	text-shadow:1px 1px 0 rgba(255,255,255,0.4)
+    font-size: 100%;
+    line-height: 1.5rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #6e2d52;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4);
 }
 body,button {
 	font-family:"RuiHeiXiTi",sans-serif
