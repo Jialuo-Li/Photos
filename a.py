@@ -1,7 +1,7 @@
 from PIL import Image
 
 # 打开要翻转的图片
-# path = f'a.jpg'
+# path = f's.jpg'
 # image = Image.open(path)
 
 # # 设置压缩质量（0-100），数值越低，压缩效果越明显
